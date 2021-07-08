@@ -1,0 +1,15 @@
+.title {
+    font-family: 'BebasNeue';
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline 10px red ;
+}
+.game-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 110px;
+}
+.day {
+    width: 300px;
+    height: 300px;
+}

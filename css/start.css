@@ -1,0 +1,24 @@
+p {
+    font-family: 'BebasNeue';
+    font-size: 40px;
+}
+.log-block {
+    margin-right: 100px;
+}
+.log-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+.text-form {
+    font-family: 'BebasNeue';
+    font-size: 20px;
+}
+.log-box {
+    border: 3px solid red;
+    padding: 10px;
+}
+.log-btn {
+    background-image: url(img/button.png);
+}
