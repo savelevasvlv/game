@@ -138,7 +138,7 @@ const results =
 	new Result("No comments", 0),
 	new Result("Are you serious?", 2),
 	new Result("Almost there! Try again", 4),
-	new Result("Great Job! Get your reward!", 5, document.getElementById("present").toShow())
+	new Result("Great Job! Get your reward!", 5)
 ];
 
 //Массив с вопросами
