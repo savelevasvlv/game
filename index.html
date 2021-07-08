@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/start.css">
     <link rel="stylesheet" href="css/fonts.css">
     <title>Rocco De Lutiis</title>
 </head>
@@ -24,13 +25,23 @@
         <div class="main-img">
             <img src="img/roccoimg.png" alt="" class="rocco">
         </div>
-        <div class="name">
-            <h1>Rocco<br> De Lutiis</h1>
-            <p>Hi! Your birthday is coming!<br>It's time to play a game!
-            </p>
-           <a href="game.html" ><img src="img/button.png" alt="" class="btn-start"></a>
+        <div class="log-block">
+            <p>Are you that lucky guy Rocco De Lutiis?</p>
+            <p>Let's check it out!</p>
+            <form class="log-form" action="#" method="POST">
+                <label for="" class="text-form">Your Full Name</label>
+                <input type="text" name="log-name" placeholder="Type your full name" class="log-box" id="input_form">
+                <br>
+                <label for="" class="text-form">Your birthday date</label>
+                <input type="date" name="log-date" class="log-box" placeholder="09/16/1996" id="date_form">
+                <br>
+                <label for="" class="text-form">Password(name of your chiquita)</label>
+                <input type="password" name="log-password" placeholder="type your password" class="log-box" id="password_form"> 
+                <br>
+                <button class="log-button" type="button" name="lod-submit" id="log_button"><img src="img/button.png"></button>
+            </form>
         </div>
     </section>
-    
+   <script src="js/start.js"></script>
 </body>
 </html>
