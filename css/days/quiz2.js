@@ -138,50 +138,49 @@ const results =
 	new Result("No comments", 0),
 	new Result("Are you serious?", 2),
 	new Result("Almost there! Try again", 4),
-	new Result("Great Job! Get your reward! Find an envelope with letter A", 5)
+	new Result("Great Job! Get your reward! Find an envelope with letter E", 5)
 ];
 
 //Массив с вопросами
 const questions = 
 [
-	new Question("The place where you met Angelina", 
+	new Question("What year was the first Iron Man movie released, kicking off the Marvel Cinematic Universe?", 
 	[
-		new Answer("Anakeesta", 0),
-		new Answer("Russia", 0),
-		new Answer("Ober Gatlinburg", 1),
-		new Answer("Your dreams", 0)
+		new Answer("2005", 0),
+		new Answer("2008", 1),
+		new Answer("2010", 0),
+		new Answer("2012", 0)
 	]),
 
-	new Question("What is your special place with Angelina", 
+	new Question("What is the name of Thor’s hammer?", 
 	[
-		new Answer("Bypass view", 1),
-		new Answer("Arcade", 0),
-		new Answer("Ober Housing", 0),
-		new Answer("Landshark", 0)
+		new Answer("Vanir", 0),
+		new Answer("Mjolnir", 1),
+		new Answer("Aesir", 0),
+		new Answer("Norn", 0)
 	]),
 
-	new Question("What's the first place you come together?", 
+	new Question("Before becoming Vision, what is the name of Iron Man’s A.I. butler?", 
 	[
-		new Answer("Social Security Office", 1),
-		new Answer("SkyBridge", 0),
-		new Answer("Best Italian", 0),
-		new Answer("Cinema", 0)
+		new Answer("H.O.M.E.R.", 0),
+		new Answer("J.A.R.V.I.S.", 1),
+		new Answer("A.L.F.R.E.D.", 0),
+		new Answer("M.A.R.V.I.N.", 0)
 	]),
 
-	new Question("How to say in Russian HELLO", 
+	new Question("How many Infinity Stones are there?", 
 	[
-		new Answer("Poka", 0),
-		new Answer("Zopa", 0),
-		new Answer("Lublu", 0),
-		new Answer("Privet", 1)
+		new Answer("2", 0),
+		new Answer("5", 0),
+		new Answer("6", 1),
+		new Answer("4", 0)
 	]),
 
-	new Question("When is Angelina's birthday?", 
+	new Question("Tony Start or Captain America", 
 	[
-		new Answer("24 of February", 0),
-		new Answer("23 of January", 0),
-		new Answer("14 of October", 0),
-		new Answer("24 of January", 1)
+		new Answer("Tony Stark", 0),
+		new Answer("Captain America", 0),
+		new Answer("Groot", 1)
 	]),
 ];
 
