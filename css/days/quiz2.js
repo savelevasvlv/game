@@ -176,7 +176,7 @@ const questions =
 		new Answer("4", 0)
 	]),
 
-	new Question("Tony Start or Captain America", 
+	new Question("Tony Stark or Captain America", 
 	[
 		new Answer("Tony Stark", 0),
 		new Answer("Captain America", 0),
