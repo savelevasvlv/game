@@ -138,49 +138,50 @@ const results =
 	new Result("No comments", 0),
 	new Result("Are you serious?", 2),
 	new Result("Almost there! Try again", 4),
-	new Result("Great Job! Get your reward! You can choose any present with letter S or G or V or D", 5)
+	new Result("Great Job! Get your reward! You can choose any present with letter G or V or D", 5)
 ];
 
 //Массив с вопросами
 const questions = 
 [
-	new Question("What year was the first Iron Man movie released, kicking off the Marvel Cinematic Universe?", 
+	new Question("What was the first Japanese car to be produced in the United States?", 
 	[
-		new Answer("2005", 0),
-		new Answer("2008", 1),
-		new Answer("2010", 0),
-		new Answer("2012", 0)
+		new Answer("mazda miata", 0),
+		new Answer("honda accord", 1),
+		new Answer("toyota camry", 0),
+		new Answer("", 0)
 	]),
 
-	new Question("What is the name of Thor’s hammer?", 
+	new Question("What year was the Corvette first introduced?", 
 	[
-		new Answer("Vanir", 0),
-		new Answer("Mjolnir", 1),
-		new Answer("Aesir", 0),
-		new Answer("Norn", 0)
+		new Answer("1963", 0),
+		new Answer("1953", 1),
+		new Answer("1943", 0),
+		new Answer("1973", 0)
 	]),
 
-	new Question("Before becoming Vision, what is the name of Iron Man’s A.I. butler?", 
+	new Question("What was the first car launched into space?", 
 	[
-		new Answer("H.O.M.E.R.", 0),
-		new Answer("J.A.R.V.I.S.", 1),
-		new Answer("A.L.F.R.E.D.", 0),
-		new Answer("M.A.R.V.I.N.", 0)
+		new Answer("rolls-royce vision 100", 0),
+		new Answer("porche 911", 0),
+		new Answer("rinspeed oasis", 0),
+		new Answer("tesla roadster", 1)
 	]),
 
-	new Question("How many Infinity Stones are there?", 
+	new Question("The inventor of cruise control was _____", 
 	[
-		new Answer("2", 0),
-		new Answer("5", 0),
-		new Answer("6", 1),
-		new Answer("4", 0)
+		new Answer("Blind man", 1),
+		new Answer("a homeless man", 0),
+		new Answer("a 12 years old boy", 0),
+		new Answer("a robot", 0)
 	]),
 
-	new Question("Tony Stark or Captain America", 
+	new Question("How much did the first Ford Mustang cost?", 
 	[
-		new Answer("Tony Stark", 0),
-		new Answer("Captain America", 0),
-		new Answer("Groot", 1)
+		new Answer("1,652$", 0),
+		new Answer("2,567$", 0),
+		new Answer("2,368$", 1),
+		new Answer("4,778$", 0)
 	]),
 ];
 
