@@ -149,7 +149,7 @@ const questions =
 		new Answer("mazda miata", 0),
 		new Answer("honda accord", 1),
 		new Answer("toyota camry", 0),
-		new Answer("", 0)
+		new Answer("nissan maxima", 0)
 	]),
 
 	new Question("What year was the Corvette first introduced?", 
