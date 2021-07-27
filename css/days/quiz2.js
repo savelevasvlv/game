@@ -138,50 +138,50 @@ const results =
 	new Result("No comments", 0),
 	new Result("Are you serious?", 2),
 	new Result("Almost there! Try again", 4),
-	new Result("Great Job! Get your reward! You can choose any present with letter G or V or D", 5)
+	new Result("Great Job! Get your reward! You can choose any present with letter V and watch the video in the folder Happy Birthday ", 5)
 ];
 
 //Массив с вопросами
 const questions = 
 [
-	new Question("What was the first Japanese car to be produced in the United States?", 
+	new Question("What house is Harry Potter sorted into?", 
 	[
-		new Answer("mazda miata", 0),
-		new Answer("honda accord", 1),
-		new Answer("toyota camry", 0),
-		new Answer("nissan maxima", 0)
+		new Answer("Gryffindor", 1),
+		new Answer("Hufflepuff", 0),
+		new Answer("Ravenclaw", 0),
+		new Answer("Slytherin", 0)
 	]),
 
-	new Question("What year was the Corvette first introduced?", 
+	new Question(" How did Harry get the scar on his forehead?", 
 	[
-		new Answer("1963", 0),
-		new Answer("1953", 1),
-		new Answer("1943", 0),
-		new Answer("1973", 0)
+		new Answer("in a quidditch", 0),
+		new Answer("Voldemort tried to kill him when he was a baby", 1),
+		new Answer("He crashed the car", 0),
+		new Answer("He was attacked by Basilisc", 0)
 	]),
 
-	new Question("What was the first car launched into space?", 
+	new Question("Who killed professor Dumbledore?", 
 	[
-		new Answer("rolls-royce vision 100", 0),
-		new Answer("porche 911", 0),
-		new Answer("rinspeed oasis", 0),
-		new Answer("tesla roadster", 1)
+		new Answer("Draco Malfoy", 0),
+		new Answer("Harry Potter", 0),
+		new Answer("Bellatrix Lestrange", 0),
+		new Answer("Severus Snape", 1)
 	]),
 
-	new Question("The inventor of cruise control was _____", 
+	new Question("What is Harru's Patronus?", 
 	[
-		new Answer("Blind man", 1),
-		new Answer("a homeless man", 0),
-		new Answer("a 12 years old boy", 0),
-		new Answer("a robot", 0)
+		new Answer("a unicorn", 0),
+		new Answer("a bear", 0),
+		new Answer("a deer", 1),
+		new Answer("a rabbit", 0)
 	]),
 
-	new Question("How much did the first Ford Mustang cost?", 
+	new Question("Who is a half-blood prince?", 
 	[
-		new Answer("1,652$", 0),
-		new Answer("2,567$", 0),
-		new Answer("2,368$", 1),
-		new Answer("4,778$", 0)
+		new Answer("Tom Riddle", 0),
+		new Answer("Lucius Malfoy", 0),
+		new Answer("Severus Snape", 1),
+		new Answer("Hagrid", 0)
 	]),
 ];
 
