@@ -144,44 +144,44 @@ const results =
 //Массив с вопросами
 const questions = 
 [
-	new Question("What house is Harry Potter sorted into?", 
+	new Question("What year did the first Fast & Furious movie hit theaters?", 
 	[
-		new Answer("Gryffindor", 1),
-		new Answer("Hufflepuff", 0),
-		new Answer("Ravenclaw", 0),
-		new Answer("Slytherin", 0)
+		new Answer("2001", 1),
+		new Answer("1999", 0),
+		new Answer("2002", 0),
+		new Answer("1998", 0)
 	]),
 
-	new Question(" How did Harry get the scar on his forehead?", 
+	new Question("What was Brian's original job?", 
 	[
-		new Answer("in a quidditch", 0),
-		new Answer("Voldemort tried to kill him when he was a baby", 1),
-		new Answer("He crashed the car", 0),
-		new Answer("He was attacked by Basilisc", 0)
+		new Answer("killer", 0),
+		new Answer("cop", 1),
+		new Answer("doctor", 0),
+		new Answer("soldier", 0)
 	]),
 
-	new Question("Who killed professor Dumbledore?", 
+	new Question("What is the name of Dom's sister?", 
 	[
-		new Answer("Draco Malfoy", 0),
-		new Answer("Harry Potter", 0),
-		new Answer("Bellatrix Lestrange", 0),
-		new Answer("Severus Snape", 1)
+		new Answer("Lisa", 0),
+		new Answer("Sarah", 0),
+		new Answer("Mila", 0),
+		new Answer("Mia", 1)
 	]),
 
-	new Question("What is Harru's Patronus?", 
+	new Question("Vin Diesel doesn't appear in which Fast & Furious movie?", 
 	[
-		new Answer("a unicorn", 0),
-		new Answer("a bear", 0),
-		new Answer("a deer", 1),
-		new Answer("a rabbit", 0)
+		new Answer("The fast and the furious: Tokyo Drift", 0),
+		new Answer("Fast five", 0),
+		new Answer("2 fast 2 furious", 1),
+		new Answer("Fast Five", 0)
 	]),
 
-	new Question("Who is a half-blood prince?", 
+	new Question("Finally, what does Dom always say: You can't turn your back on ____?", 
 	[
-		new Answer("Tom Riddle", 0),
-		new Answer("Lucius Malfoy", 0),
-		new Answer("Severus Snape", 1),
-		new Answer("Hagrid", 0)
+		new Answer("Your friends", 0),
+		new Answer("Your kids", 0),
+		new Answer("Your family", 1),
+		new Answer("Toyta Supra", 0)
 	]),
 ];
 
