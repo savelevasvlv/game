@@ -138,7 +138,7 @@ const results =
 	new Result("No comments", 0),
 	new Result("Are you serious?", 2),
 	new Result("Almost there! Try again", 4),
-	new Result("Great Job! Get your reward! You can choose any present with letter G and give a lot of kisses to your chiquita", 5)
+	new Result("Great Job! Get your reward! You can take a present with letter G and give a lot of kisses to your chiquita", 5)
 ];
 
 //Массив с вопросами
