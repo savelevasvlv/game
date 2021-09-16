@@ -144,44 +144,44 @@ const results =
 //Массив с вопросами
 const questions = 
 [
-	new Question("The place where you met Angelina", 
+	new Question("There is no game actually:)", 
 	[
-		new Answer("Anakeesta", 0),
-		new Answer("Russia", 0),
-		new Answer("Ober Gatlinburg", 1),
-		new Answer("Your dreams", 0)
+		new Answer("Just wanna say", 1),
+		new Answer("Be happy", 1),
+		new Answer("trust yourself", 1),
+		new Answer("because you are the most trustworthy person", 1)
 	]),
 
-	new Question("What is your special place with Angelina", 
+	new Question("Never give up", 
 	[
-		new Answer("Bypass view", 1),
-		new Answer("Arcade", 0),
-		new Answer("Ober Housing", 0),
-		new Answer("Landshark", 0)
+		new Answer("Life can be shitty", 1),
+		new Answer("but you can solve everything", 1),
+		new Answer("and remember that", 1),
+		new Answer("I'm always near you to help", 1)
 	]),
 
-	new Question("What's the first place you come together?", 
+	new Question("I'm so grateful for you", 
 	[
-		new Answer("Social Security Office", 1),
-		new Answer("SkyBridge", 0),
-		new Answer("Best Italian", 0),
-		new Answer("Cinema", 0)
+		new Answer("for our love", 1),
+		new Answer("for our loyalty", 1),
+		new Answer("for our happiness", 1),
+		new Answer("Thank you", 1)
 	]),
 
-	new Question("How to say in Russian HELLO", 
+	new Question("You will get everything you want and even more", 
 	[
-		new Answer("Poka", 0),
-		new Answer("Zopa", 0),
-		new Answer("Lublu", 0),
-		new Answer("Privet", 1)
+		new Answer("you have everything to achieve your goals", 1),
+		new Answer("supporting family", 1),
+		new Answer("intelligence", 1),
+		new Answer("and hardworking character", 1)
 	]),
 
-	new Question("When is Angelina's birthday?", 
+	new Question("but dreams are not that easy to achieve", 
 	[
-		new Answer("24 of February", 0),
-		new Answer("23 of January", 0),
-		new Answer("14 of October", 0),
-		new Answer("24 of January", 1)
+		new Answer("dreams come true", 1),
+		new Answer("but they come true faster", 1),
+		new Answer("when you have somebody to help", 1),
+		new Answer("you are lucky!You have your chiquita:)", 1)
 	]),
 ];
 
